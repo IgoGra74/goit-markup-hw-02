@@ -96,6 +96,9 @@
 }
 
 /* Section-advantages */
+.section-advantages-title {
+    color: #2e2f42;
+}
 
 .section-advantages-list {
     list-style-type: none;
@@ -123,6 +126,7 @@
 }
 
 .section-team-title {
+    color: #2e2f42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -140,6 +144,7 @@
 }
 
 .section-team-list-titles {
+    color: #2e2f42;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -157,6 +162,7 @@
 
 /* Section-portfolio */
 .section-portfolio-title {
+    color: #2e2f42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -170,6 +176,7 @@
 }
 
 .section-portfolio-list-title {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
