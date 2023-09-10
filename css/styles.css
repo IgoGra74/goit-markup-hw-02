@@ -56,7 +56,7 @@
     text-decoration: none;
 }
 
-.contacts-list-itemst:hover,
+.contacts-list-items:hover,
 .contacts-list-items:active,
 .contacts-list-items:focus {
     color: #404BBF;
@@ -105,6 +105,7 @@
 }
 
 .section-advantages-list-titles {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
