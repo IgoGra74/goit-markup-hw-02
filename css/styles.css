@@ -1,6 +1,6 @@
 .body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFF;
 }
 
@@ -8,11 +8,10 @@
 
 .logo-header {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -27,6 +26,7 @@
 }
 
 .menu-list {
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -41,10 +41,14 @@
 }
 
 .contacts {
-    list-style-type: none;
+    font-style: normal;
 }
 
 .contacts-list {
+    list-style-type: none;
+}
+
+.contacts-list-items {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -52,9 +56,9 @@
     text-decoration: none;
 }
 
-.contacts-list:hover,
-.contacts-list:active,
-.contacts-list:focus {
+.contacts-list-itemst:hover,
+.contacts-list-items:active,
+.contacts-list-items:focus {
     color: #404BBF;
 }
 
@@ -80,9 +84,7 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px;
     cursor: pointer;
 }
 
@@ -94,16 +96,12 @@
 }
 
 /* Section-advantages */
-.section-advantages-title {
-    display: none;
-}
 
 .section-advantages-list {
     list-style-type: none;
 }
 
 .section-advantages-list-titles {
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -113,7 +111,6 @@
 
 .section-advantages-list-text {
     color: #434455;
-    font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -127,12 +124,15 @@
 
 .section-team-title {
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+
+.section-team-list-item {
+    background-color: #FFFFFF;
 }
 
 .section-team-list {
@@ -141,7 +141,6 @@
 
 .section-team-list-titles {
     text-align: center;
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -151,7 +150,6 @@
 .section-team-list-text {
     color: #434455;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -160,10 +158,9 @@
 /* Section-portfolio */
 .section-portfolio-title {
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -173,7 +170,6 @@
 }
 
 .section-portfolio-list-title {
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -182,7 +178,6 @@
 
 .section-portfolio-list-text {
     color: #434455;
-    font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -195,11 +190,11 @@
 
 .logo-footer {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -211,7 +206,7 @@
 
 .footer-text {
     color: #F4F4FD;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
